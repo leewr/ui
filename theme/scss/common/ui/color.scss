@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@import '../variable';
+
+/**
+ * 
+ * @color.css
+ * @author xinxuzhang 
+ * @create 16-04-18
+**/
+
+/*主色*/
+body, .dark { color: $dark; }   
+/*蓝色*/
+a, .blue, a.dark:hover { color: $blue; }
+.darkblue{
+	color: $darkblue
+}
+/*hover蓝色*/
+a:hover { color: $darkblue; }
+/*灰色*/
+.gray { color: $gray; } 
+/*白色*/ 
+.white { color: $white; } 
+/* 绿色 */    
+.green { color: $green; }
+/* 橘色 */
+.orange { color: $orange; }
+/* 红色 */
+.red { color: $red; }
+/* 浅色 */
+.light { color: $light; }
+
+// bg 类显示为background的样色
+.bg{
+	&.dark{
+		background: $dark;
+	}
+	&.blue{
+		background: $blue;
+	}
+	&.darkblue{
+		background: $darkblue;
+	}
+	&.gray{
+		background: $blue;
+	}
+	&.white{
+		background: $white;
+	}
+	&.green{
+		background: $green;
+	}
+	&.orange{
+		background: $orange;
+	}
+	&.red{
+		background: $red;
+	}
+	&.light{
+		background: $light;
+	}
+}
