@@ -72,10 +72,16 @@ window.ydoc_plugin_search_json = {
       ]
     },
     {
-      "title": "",
+      "title": "按钮",
       "content": "",
       "url": "\\documents\\btn.html",
-      "children": []
+      "children": [
+        {
+          "title": "使用",
+          "url": "\\documents\\btn.html#使用",
+          "content": "使用1、基础类名使用.ui-btn， 不同状态类名: 默认蓝色.ui-btn-primary\t默认按钮\n\t主要按钮\n\t橙色按钮\n\t圆角按钮\n\t主要按钮\n\t橙色按钮\n2、按钮禁用注意.disabled属于全局的一个公共类名\t禁用\n\t主要按钮\n\t橙色按钮\n代码示意禁用主要按钮\n橙色按钮\n加载按钮使用.loading\t禁用\n\t主要按钮\n\t橙色按钮\n"
+        }
+      ]
     },
     {
       "title": "",

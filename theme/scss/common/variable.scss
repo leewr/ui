@@ -21,10 +21,10 @@ $borderNormal: #f0f0f0;
 $borderHover: #ababaf;
 $borderFocus: $blue;
 
-// 背景色
+// 蓝色背景色、primary-btn
 $backgroundBlue: $blue;
-$backgroundBlueHover: #0160d5;
-$backgroundBlueActive: #0057c3;
+$backgroundBlueHover: #1969E0;
+$backgroundBlueActive: #1969E0;
 
 $backgroundGreen: $green;
 $backgroundGreenHover: #00dba2;
@@ -33,6 +33,10 @@ $backgroundGreenActive: #00bf8e;
 $backgroundRed: $red;
 $backgroundRedHover: #ff7772;
 $backgroundRedActive: #dc5652;
+
+$backgroundOrange: $orange;
+$backgroundOrangeHover: #FF6F21;
+$backgroundOrangeActive: #FF6F21;
 
 // 列表hover色，偏蓝
 $backgroundList: $white;

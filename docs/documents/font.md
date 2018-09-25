@@ -12,7 +12,7 @@ font-family: -apple-system,SF UI Display,Arial,PingFang SC,Hiragino Sans GB,Micr
 
 ## 字体大小
 lib.scss中设置基础类名<code>.f0</code>、<code>.f12</code>、<code>.f13</code>、<code>.f14</code>、<code>.f16</code>、<code>.f18</code>、<code>.f20</code>、<code>.f24</code>、<code>.f28</code>
-更多基础类请查看[lib.css]('/theme/css/common/ui/lib.css')
+更多基础类请查看[lib.css](/theme/css/common/ui/lib.css)
 ### 示例
 <style type="text/css">
 	.textSample{text-indent: 1em;}
