@@ -8,7 +8,7 @@
 # 按钮
 ### 使用
 
-#### 1、基础类名 
+#### 1、基础类名
 使用<code>.ui-btn</code>， 不同状态类名: 默认蓝色<code>.ui-btn-primary</code>
 
 <div class="btnItem">

@@ -4,6 +4,9 @@ var sass = require('gulp-sass');
 var clean = require('gulp-clean');
 var connect = require('gulp-connect');
 
+var process = require('child_process');
+
+
 // 或者之前的modern
 var theme = '';
 
@@ -22,9 +25,11 @@ gulp.task('clean', function() {
 // 默认任务
 gulp.task('default', ['clean', 'sass:ui', 'sass:common', 'sass:comp'], function () {
     gulp.start('sass:watch');
+    gulp.start('md:watch')
     connect.server({
       liverload: true,port:9000  //端口号
     });
+    
 });
 
 
@@ -52,6 +57,21 @@ gulp.task('sass:comp', function () {
         .pipe(gulp.dest(path.css + '/common/comp'));
 });
 
+gulp.task('md:doc', function () {
+    console.log('build')
+    process.exec('ydoc build',function (error, stdout, stderr) {
+        console.log('builded')
+        if (error !== null) {
+          console.log('exec error: ' + error);
+        }
+    });
+})
+
 gulp.task('sass:watch', function () {
     gulp.watch('./theme/sass/**/*.scss', ['sass:ui', 'sass:common', 'sass:comp']);
+    
 });
+
+gulp.task('md:watch', function () {
+    gulp.watch('./docs/**/*.md', ['md:doc'])
+})

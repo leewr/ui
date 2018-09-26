@@ -658,7 +658,7 @@ body {
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 1440px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 0;
   transition: all 0.2s;
@@ -1891,9 +1891,9 @@ pre[class*="language-"] {
 }
 
 .m-content-container {
-  width: 100%;
+  max-width: 8.1rem;
   padding: .48rem .24rem 1.2rem;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .m-content-container .title {
