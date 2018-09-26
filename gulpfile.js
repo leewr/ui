@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 //清空文件
 var clean = require('gulp-clean');
+var connect = require('gulp-connect');
 
 // 或者之前的modern
 var theme = '';
@@ -21,6 +22,9 @@ gulp.task('clean', function() {
 // 默认任务
 gulp.task('default', ['clean', 'sass:ui', 'sass:common', 'sass:comp'], function () {
     gulp.start('sass:watch');
+    connect.server({
+      liverload: true,port:9000  //端口号
+    });
 });
 
 
