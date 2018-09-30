@@ -84,10 +84,36 @@ window.ydoc_plugin_search_json = {
       ]
     },
     {
-      "title": "",
+      "title": "基本使用",
       "content": "",
       "url": "\\documents\\input.html",
-      "children": []
+      "children": [
+        {
+          "title": "input 使用类 .ui-input",
+          "url": "\\documents\\input.html#input-使用类-.ui-input",
+          "content": "input 使用类 .ui-input"
+        },
+        {
+          "title": "1、基本使用",
+          "url": "\\documents\\input.html#input-使用类-.ui-input-1、基本使用",
+          "content": "1、基本使用最基本的input标签：内联使用 input块状宽度100%:\t\n代码示例"
+        },
+        {
+          "title": "只读和禁用",
+          "url": "\\documents\\input.html#只读和禁用",
+          "content": "只读和禁用只读文本框 禁用文本框 \n"
+        },
+        {
+          "title": "2、带后缀的Input",
+          "url": "\\documents\\input.html#只读和禁用-2、带后缀的input",
+          "content": "2、带后缀的Input\t\n\t\n\t\n\t\t元\n\t\n"
+        },
+        {
+          "title": "3、带前缀的Input",
+          "url": "\\documents\\input.html#只读和禁用-3、带前缀的input",
+          "content": "3、带前缀的Input带前缀的文字 / 可添加图标\t\n\t\n\t\n\t\t元\n\t\n带前缀的搜索搜索在输入框前\t\n\t\t\n\t\n\t\n\t\n搜索在输入框后\t\n\t\n\t\n\t\t\n\t\n"
+        }
+      ]
     },
     {
       "title": "",
@@ -96,10 +122,26 @@ window.ydoc_plugin_search_json = {
       "children": []
     },
     {
-      "title": "",
+      "title": "文本域",
       "content": "",
       "url": "\\documents\\textarea.html",
-      "children": []
+      "children": [
+        {
+          "title": "基本使用",
+          "url": "\\documents\\textarea.html#基本使用",
+          "content": "基本使用"
+        },
+        {
+          "title": "文本域100%宽度",
+          "url": "\\documents\\textarea.html#文本域100%宽度",
+          "content": "文本域100%宽度\t\n\t\n\n"
+        },
+        {
+          "title": "带文字显示",
+          "url": "\\documents\\textarea.html#带文字显示",
+          "content": "带文字显示\t\n\t\n\t\t12\n\t\t/\n\t\t200\n\t\n"
+        }
+      ]
     },
     {
       "title": "",

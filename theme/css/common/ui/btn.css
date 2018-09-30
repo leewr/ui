@@ -5,7 +5,7 @@
   font-size: 14px;
   text-align: center;
   color: #454545;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #ccc;
   border-radius: 4px;
   padding: 9px 15px;
   min-width: 50px;
@@ -29,7 +29,7 @@ div.ui-btn {
 
 .ui-btn:hover {
   color: #454545;
-  border-color: #ababaf;
+  border-color: #eee;
   text-decoration: none; }
 
 .ui-btn:not(.disabled):active,
