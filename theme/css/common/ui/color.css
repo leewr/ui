@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 
+ * @color.css
+ * @author xinxuzhang 
+ * @create 16-04-18
+**/
+/*主色*/
+body, .dark {
+  color: #454545; }
+
+/*蓝色*/
+a, .blue, a.dark:hover {
+  color: #1C81FF; }
+
+.darkblue {
+  color: #0c2d5f; }
+
+/*hover蓝色*/
+a:hover {
+  color: #0c2d5f; }
+
+/*灰色*/
+.gray {
+  color: #a2a9b6; }
+
+/*白色*/
+.white {
+  color: #fff; }
+
+/* 绿色 */
+.green {
+  color: #01cf97; }
+
+/* 橘色 */
+.orange {
+  color: #f28c48; }
+
+/* 红色 */
+.red {
+  color: #f4615c; }
+
+/* 浅色 */
+.light {
+  color: #f7f9fa; }
+
+.bg.dark {
+  background: #454545; }
+
+.bg.blue {
+  background: #1C81FF; }
+
+.bg.darkblue {
+  background: #0c2d5f; }
+
+.bg.gray {
+  background: #a2a9b6; }
+
+.bg.white {
+  background: #fff; }
+
+.bg.green {
+  background: #01cf97; }
+
+.bg.orange {
+  background: #f28c48; }
+
+.bg.red {
+  background: #f4615c; }
+
+.bg.light {
+  background: #f7f9fa; }

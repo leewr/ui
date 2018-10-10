@@ -10,6 +10,7 @@
 * [文本框](input.md#)
 * [搜索框](serch.md#)
 * [文本域](textarea.md#)
+* [单复选框](checkbox.md)
 * [表格](table.md)
 
 ### 模块

@@ -25,10 +25,10 @@ gulp.task('clean', function() {
 // 默认任务
 gulp.task('default', ['clean', 'sass:ui', 'sass:common', 'sass:comp'], function () {
     gulp.start('sass:watch');
-    // gulp.start('md:watch')
-    // connect.server({
-    //   liverload: true,port:9000  //端口号
-    // });
+    gulp.start('md:watch')
+    connect.server({
+      liverload: true,port:9000  //端口号
+    });
 });
 
 
