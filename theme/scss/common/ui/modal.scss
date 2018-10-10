@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+@import '../variable';
+/** * 遮盖曾*/
+.coverLayer,
+.background{
+  width:100%;
+  height:100%;
+  position: fixed;
+  left:0;
+  top:0;
+  background-color:#333333;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  -moz-opacity:0.3;
+  -khtml-opacity:0.3;
+}
+/*点击弹框*/
+.webox{
+    background-color: #fff;
+    border-radius:3px;
+    color: $light;
+    position: fixed;
+    _position: absolute;
+    #inside{
+      background-color: #fff;
+      border-radius:3px;
+      h1{
+          background-color: $light;
+          color: $dark; 
+          cursor:move;
+          font-size: 14px;
+          font-style: normal;
+          text-indent: 20px;
+          height:40px;
+          line-height:40px;
+          a{
+            color: $dark;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right:0;
+            text-indent: 0;
+            width: 40px;
+            height: 40px;
+            line-height:40px;
+            text-align: center;
+            &:hover{background-color: #3cb4f9; color: $blue;}
+          }
+      }
+      #inside_txt{
+          padding:20px;
+          //overflow: hidden;
+       .regCgb{
+           ul{
+               // @include ul_tileStandby;
+               position: relative;
+               margin-top: 30px;
+               li{
+                   &.ul_l:after{
+                        position: absolute;
+                        right: 278px;
+                        top: 10px;
+                        content: ' ';
+                        width: 1px;
+                        height: 55px;
+                        background-color: #e5e5e5;
+                   }
+                   p{
+                       font-size: 14px;
+                       color: #999;
+                       &.ul_one{
+                           color: #333;
+                           font-size: 16px;
+                           line-height: 37px;
+                           span{
+                               color: #ff823e;
+                               font-size: 48px;
+                               font-family: 'DINMEDIUM';
+                           }
+                       }
+                   }
+               }
+           }
+           .download{
+               color: #666;
+               font-size: 14px;
+           }
+           .goCopy,.qqService{
+               color: #ff823e;
+               border-radius: 30px;
+               padding: 10px 15px;
+               border: 1px solid #ff823e;
+           }
+           .qqService{
+               margin-left: 10px;
+           }
+       }
+     }
+    }
+    p{
+        line-height: 27px;
+        text-indent: 2em;
+    }
+    .transTip{
+        font-size: 16px;
+        text-align: left;
+        margin-top: 20px;
+    }
+  .msg-source{
+      text-indent: 0;
+      text-align: left;
+      width: 196px;
+      float: right;
+      margin-top: 30px;
+  }
+}

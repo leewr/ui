@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/** * 遮盖曾*/
+.coverLayer,
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #333333;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3; }
+
+/*点击弹框*/
+.webox {
+  background-color: #fff;
+  border-radius: 3px;
+  color: #f7f9fa;
+  position: fixed;
+  _position: absolute; }
+  .webox #inside {
+    background-color: #fff;
+    border-radius: 3px; }
+    .webox #inside h1 {
+      background-color: #f7f9fa;
+      color: #454545;
+      cursor: move;
+      font-size: 14px;
+      font-style: normal;
+      text-indent: 20px;
+      height: 40px;
+      line-height: 40px; }
+      .webox #inside h1 a {
+        color: #454545;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-indent: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 28px;
+        text-align: center; }
+        .webox #inside h1 a:hover {
+          background-color: #3cb4f9;
+          color: #1C81FF; }
+    .webox #inside #inside_txt {
+      padding: 20px; }
+      .webox #inside #inside_txt .regCgb ul {
+        position: relative;
+        margin-top: 30px; }
+        .webox #inside #inside_txt .regCgb ul li.ul_l:after {
+          position: absolute;
+          right: 278px;
+          top: 10px;
+          content: ' ';
+          width: 1px;
+          height: 55px;
+          background-color: #e5e5e5; }
+        .webox #inside #inside_txt .regCgb ul li p {
+          font-size: 14px;
+          color: #999; }
+          .webox #inside #inside_txt .regCgb ul li p.ul_one {
+            color: #333;
+            font-size: 16px;
+            line-height: 37px; }
+            .webox #inside #inside_txt .regCgb ul li p.ul_one span {
+              color: #ff823e;
+              font-size: 48px;
+              font-family: 'DINMEDIUM'; }
+      .webox #inside #inside_txt .regCgb .download {
+        color: #666;
+        font-size: 14px; }
+      .webox #inside #inside_txt .regCgb .goCopy, .webox #inside #inside_txt .regCgb .qqService {
+        color: #ff823e;
+        border-radius: 30px;
+        padding: 10px 15px;
+        border: 1px solid #ff823e; }
+      .webox #inside #inside_txt .regCgb .qqService {
+        margin-left: 10px; }
+  .webox p {
+    line-height: 27px;
+    text-indent: 2em; }
+  .webox .transTip {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px; }
+  .webox .msg-source {
+    text-indent: 0;
+    text-align: left;
+    width: 196px;
+    float: right;
+    margin-top: 30px; }

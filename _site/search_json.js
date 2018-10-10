@@ -148,6 +148,35 @@ window.ydoc_plugin_search_json = {
       "content": "",
       "url": "\\documents\\table.html",
       "children": []
+    },
+    {
+      "title": "",
+      "content": "",
+      "url": "\\documents\\pagination.html",
+      "children": [
+        {
+          "title": "使用",
+          "url": "\\documents\\pagination.html#使用",
+          "content": "使用pc站点分页组件常使用在文章列表，受限于历史原因，分页dom结构写在的后端模板里，固沿用原dom结构\t\n\t\t\n\t\t\t> \n\t\t\n\t\n"
+        }
+      ]
+    },
+    {
+      "title": "",
+      "content": "",
+      "url": "\\documents\\webox.html",
+      "children": [
+        {
+          "title": "弹出框",
+          "url": "\\documents\\webox.html#弹出框",
+          "content": "弹出框"
+        },
+        {
+          "title": "基本使用",
+          "url": "\\documents\\webox.html#基本使用",
+          "content": "基本使用弹窗$.webox(options)可选参数| options  |      类型      |  默认值 | 解释 |\n|----------|:--------------:|-------:| ---：|\n| title    |  String      | '' | 弹框的标题|\n|html|||\t$('.ui-btn').click(function () {\n\t\t$.alertWindow(400, 200, '正文', false, $.noop)\n\t})\n"
+        }
+      ]
     }
   ]
 }
