@@ -23,11 +23,11 @@ gulp.task('clean', function() {
 });
 
 // 默认任务
-gulp.task('default', ['clean', 'sass:ui', 'sass:common', 'sass:comp'], function () {
+gulp.task('default', ['sass:ui', 'sass:common', 'sass:comp'], function () {
     gulp.start('sass:watch');
     gulp.start('md:watch')
     connect.server({
-      liverload: true,port:9000  //端口号
+      liverload: true,port:9000
     });
 });
 
@@ -67,7 +67,7 @@ gulp.task('md:doc', function () {
 })
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./theme/sass/**/*.scss', ['sass:ui', 'sass:common', 'sass:comp']);
+    gulp.watch('./theme/scss/**/*.scss', ['sass:ui', 'sass:common', 'sass:comp']);
     
 });
 
